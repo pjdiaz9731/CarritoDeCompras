@@ -10,4 +10,33 @@ package com.mycompany.carritodecompras;
  */
 public class Comida {
     
+    
+    private String Nombre="";
+    private double cantidad = 0;
+     
+    public Comida(String Nombre,double Cantidad){
+    this.Nombre=Nombre;
+    this.cantidad=Cantidad;
+    
+    
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public double getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(double cantidad) {
+        this.cantidad = cantidad;
+    }
+    
+  
+    
 }
