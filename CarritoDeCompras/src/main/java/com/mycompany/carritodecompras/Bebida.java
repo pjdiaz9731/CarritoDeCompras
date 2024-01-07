@@ -10,4 +10,13 @@ package com.mycompany.carritodecompras;
  */
 public class Bebida {
     
+    private String Nombre = "";
+    private String Marca="";
+    private double Capacidad=0;
+    
+
+//Crear constructor
+    
+    
+    
 }
